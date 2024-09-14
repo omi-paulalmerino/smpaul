@@ -7,14 +7,17 @@ REQUIRES = [
   "requests",
 ]
 
+
 setup(
     name=NAME,
     version=VERSION,    
-    description="OMI Payment Integration",
-    url='https://github.com/shuds13/pyexample',
-    author='Paul Almerino',
-    author_email='paul.almerino@smsupermalls.com',
-    license='BSD 2-clause',
+    description=""" The description of the package   """,
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/omi-paulalmerino/smpaul",
+    author="Paul Almerino",
+    author_email="paul.almerino@smsupermalls.com",
+    license="BSD 2-clause",
     packages=[NAME],
     install_requires=REQUIRES,
     classifiers=[
@@ -28,6 +31,4 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
 )
