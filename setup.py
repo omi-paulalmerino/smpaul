@@ -1,17 +1,20 @@
 from setuptools import setup
 
 NAME = "smpaul"
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 
 REQUIRES = [
   "requests",
 ]
 
-# read the contents of your README file
-from pathlib import Path
-this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+# Option 1
+# from pathlib import Path
+# this_directory = Path(__file__).parent
+# long_description = (this_directory / "README.md").read_text()
 
+# Option 2
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(
     name=NAME,
