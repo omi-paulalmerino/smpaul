@@ -30,7 +30,7 @@ setup(
     install_requires=REQUIRES,
     classifiers=[
         'Development Status :: 1 - Planning',
-        'Intended Audience :: SM Application Development',
+        'Intended Audience :: SM AppDev',
         'License :: OSI Approved :: BSD License',  
         'Operating System :: POSIX :: Linux',    
         'Programming Language :: Python :: 3.9',
