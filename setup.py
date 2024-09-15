@@ -1,7 +1,7 @@
 from setuptools import setup
 
 NAME = "smpaul"
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 
 REQUIRES = [
   "requests",
@@ -30,7 +30,7 @@ setup(
     install_requires=REQUIRES,
     classifiers=[
         'Development Status :: 1 - Planning',
-        'Intended Audience :: Science/Research',
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',  
         'Operating System :: POSIX :: Linux',    
         'Programming Language :: Python :: 3',
